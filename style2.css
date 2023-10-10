@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: red;
+  height: 70px;
+  text-align: center;
+  color: aliceblue;
+  line-height: 60px;
+} 
+
+.container{
+  background-color: yellow;
+  height: 400px;
+  display: flex;
+}
+.container .sidebar{
+  background-color: cadetblue;
+  flex: 1;
+  align-self: center;
+}
+
+.container main{
+  background-color: rgb(247, 247, 247);
+  flex-grow: 2;
+}
+
+footer{
+height: 60px;
+background-color: blue;
+text-align: center;
+line-height: 60px;
+color: white;
+}
